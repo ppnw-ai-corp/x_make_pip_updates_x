@@ -1,0 +1,107 @@
+{
+  "run_id": "7863caabc87442738246bb2171949c17",
+  "started_at": "2025-11-23T18:16:58Z",
+  "inputs": {
+    "requested_packages": [
+      "x_4357_make_markdown_x",
+      "x_4357_make_persistent_env_var_x",
+      "x_4357_make_pip_updates_x"
+    ],
+    "normalized_packages": [
+      "x_4357_make_markdown_x",
+      "x_4357_make_persistent_env_var_x",
+      "x_4357_make_pip_updates_x"
+    ],
+    "use_user_flag": false,
+    "repo_parent_root": "C:\\x_runner_x",
+    "published_versions": {
+      "x_4357_make_markdown_x": "0.20.3",
+      "x_4357_make_persistent_env_var_x": "0.20.3",
+      "x_4357_make_pip_updates_x": "0.20.3"
+    },
+    "published_artifacts": {
+      "x_4357_make_markdown_x": {
+        "main": "x_cls_make_markdown_x.py",
+        "anc": []
+      },
+      "x_4357_make_persistent_env_var_x": {
+        "main": "x_cls_make_persistent_env_var_x.py",
+        "anc": []
+      },
+      "x_4357_make_pip_updates_x": {
+        "main": "x_cls_make_pip_updates_x.py",
+        "anc": []
+      }
+    }
+  },
+  "execution": {
+    "script_path": "C:\\x_runner_x\\x_make_pip_updates_x\\x_cls_make_pip_updates_x.py",
+    "script_available": true,
+    "script_attempt": {
+      "invoked": true,
+      "return_code": 0
+    },
+    "fallback": {
+      "invoked": false,
+      "pinned": [
+        "x_4357_make_markdown_x==0.20.3",
+        "x_4357_make_persistent_env_var_x==0.20.3",
+        "x_4357_make_pip_updates_x==0.20.3"
+      ],
+      "loose": []
+    },
+    "retry": {
+      "mode": "script",
+      "return_code": 2,
+      "packages": [
+        "x_4357_make_markdown_x",
+        "x_4357_make_persistent_env_var_x",
+        "x_4357_make_pip_updates_x"
+      ]
+    }
+  },
+  "result": {
+    "status": "attention",
+    "script_return_code": 0,
+    "used_script": true,
+    "fallback_used": false,
+    "retry_return_code": 2,
+    "any_failures": true,
+    "initial_versions": {
+      "x_4357_make_markdown_x": "0.20.7",
+      "x_4357_make_persistent_env_var_x": "0.20.7",
+      "x_4357_make_pip_updates_x": "0.20.7"
+    },
+    "final_versions": {
+      "x_4357_make_markdown_x": "0.20.7",
+      "x_4357_make_persistent_env_var_x": "0.20.7",
+      "x_4357_make_pip_updates_x": "0.20.7"
+    },
+    "mismatches": [
+      {
+        "package": "x_4357_make_markdown_x",
+        "expected": "0.20.3",
+        "observed": "0.20.7"
+      },
+      {
+        "package": "x_4357_make_persistent_env_var_x",
+        "expected": "0.20.3",
+        "observed": "0.20.7"
+      },
+      {
+        "package": "x_4357_make_pip_updates_x",
+        "expected": "0.20.3",
+        "observed": "0.20.7"
+      }
+    ],
+    "verification": {
+      "status": "performed",
+      "detail": "metadata validated; deep verification not implemented"
+    }
+  },
+  "status": "success",
+  "completed_at": "2025-11-23T18:16:59Z",
+  "duration_seconds": 0.585,
+  "tool": "x_make_pip_updates_x",
+  "generated_at": "2025-11-23T18:16:59Z"
+}

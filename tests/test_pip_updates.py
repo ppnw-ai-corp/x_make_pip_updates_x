@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import subprocess
 import typing
+from collections.abc import Mapping
 from importlib.metadata import PackageNotFoundError
 from typing import TYPE_CHECKING, ParamSpec, TypeVar, cast
 
@@ -164,8 +165,9 @@ def test_run_executes_pip_and_returns_result(monkeypatch: MonkeyPatch) -> None:
         text: bool = False,
         capture_output: bool = False,
         check: bool = False,
+        env: Mapping[str, str] | None = None,
     ) -> subprocess.CompletedProcess[str]:
-        _ = (text, capture_output, check)
+        _ = (text, capture_output, check, env)
         return completed
 
     monkeypatch.setattr(subprocess, "run", fake_run)

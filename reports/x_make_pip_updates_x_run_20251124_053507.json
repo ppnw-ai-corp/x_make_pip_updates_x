@@ -1,0 +1,136 @@
+{
+  "run_id": "07a85ee1958b43ea9d4f10df92709d15",
+  "started_at": "2025-11-24T05:33:07Z",
+  "inputs": {
+    "requested_packages": [
+      "x_4357_make_py_mod_sideload_x",
+      "x_4357_make_mermaid_x",
+      "x_4357_make_graphviz_x",
+      "x_4357_make_yahw_x",
+      "x_4357_make_markdown_x",
+      "x_4357_make_persistent_env_var_x",
+      "x_4357_make_pypi_x",
+      "x_4357_make_github_clones_x",
+      "x_4357_make_pip_updates_x",
+      "x_4357_make_common_x",
+      "x_4357_make_github_visitor_x",
+      "x_4357_make_cli_scaffolder_x",
+      "x_4357_make_contract_validators_x",
+      "x_4357_make_progress_board_x"
+    ],
+    "normalized_packages": [
+      "x_4357_make_py_mod_sideload_x",
+      "x_4357_make_mermaid_x",
+      "x_4357_make_graphviz_x",
+      "x_4357_make_yahw_x",
+      "x_4357_make_markdown_x",
+      "x_4357_make_persistent_env_var_x",
+      "x_4357_make_pypi_x",
+      "x_4357_make_github_clones_x",
+      "x_4357_make_pip_updates_x",
+      "x_4357_make_common_x",
+      "x_4357_make_github_visitor_x",
+      "x_4357_make_cli_scaffolder_x",
+      "x_4357_make_contract_validators_x",
+      "x_4357_make_progress_board_x"
+    ],
+    "use_user_flag": false,
+    "repo_parent_root": "C:\\x_runner_x",
+    "published_versions": {},
+    "published_artifacts": {}
+  },
+  "execution": {
+    "script_path": "C:\\x_runner_x\\x_make_pip_updates_x\\x_cls_make_pip_updates_x.py",
+    "script_available": true,
+    "script_attempt": {
+      "invoked": true,
+      "return_code": 0
+    },
+    "fallback": {
+      "invoked": false,
+      "pinned": [],
+      "loose": [
+        "x_4357_make_py_mod_sideload_x",
+        "x_4357_make_mermaid_x",
+        "x_4357_make_graphviz_x",
+        "x_4357_make_yahw_x",
+        "x_4357_make_markdown_x",
+        "x_4357_make_persistent_env_var_x",
+        "x_4357_make_pypi_x",
+        "x_4357_make_github_clones_x",
+        "x_4357_make_pip_updates_x",
+        "x_4357_make_common_x",
+        "x_4357_make_github_visitor_x",
+        "x_4357_make_cli_scaffolder_x",
+        "x_4357_make_contract_validators_x",
+        "x_4357_make_progress_board_x"
+      ]
+    }
+  },
+  "result": {
+    "status": "completed",
+    "script_return_code": 0,
+    "used_script": true,
+    "fallback_used": false,
+    "retry_return_code": null,
+    "any_failures": false,
+    "initial_versions": {
+      "x_4357_make_py_mod_sideload_x": "0.20.7",
+      "x_4357_make_mermaid_x": "0.20.7",
+      "x_4357_make_graphviz_x": "0.20.7",
+      "x_4357_make_yahw_x": "0.20.7",
+      "x_4357_make_markdown_x": "0.20.7",
+      "x_4357_make_persistent_env_var_x": "0.20.7",
+      "x_4357_make_pypi_x": "0.20.7",
+      "x_4357_make_github_clones_x": "0.20.7",
+      "x_4357_make_pip_updates_x": "0.20.7",
+      "x_4357_make_common_x": "0.20.7",
+      "x_4357_make_github_visitor_x": "0.20.7",
+      "x_4357_make_cli_scaffolder_x": "0.20.7",
+      "x_4357_make_contract_validators_x": "0.20.7",
+      "x_4357_make_progress_board_x": "0.20.7"
+    },
+    "final_versions": {
+      "x_4357_make_py_mod_sideload_x": "0.20.7",
+      "x_4357_make_mermaid_x": "0.20.7",
+      "x_4357_make_graphviz_x": "0.20.7",
+      "x_4357_make_yahw_x": "0.20.7",
+      "x_4357_make_markdown_x": "0.20.7",
+      "x_4357_make_persistent_env_var_x": "0.20.7",
+      "x_4357_make_pypi_x": "0.20.7",
+      "x_4357_make_github_clones_x": "0.20.7",
+      "x_4357_make_pip_updates_x": "0.20.7",
+      "x_4357_make_common_x": "0.20.7",
+      "x_4357_make_github_visitor_x": "0.20.7",
+      "x_4357_make_cli_scaffolder_x": "0.20.7",
+      "x_4357_make_contract_validators_x": "0.20.7",
+      "x_4357_make_progress_board_x": "0.20.7"
+    },
+    "mismatches": [],
+    "verification": {
+      "status": "skipped",
+      "reason": "missing artifact metadata",
+      "missing": [
+        "x_4357_make_cli_scaffolder_x",
+        "x_4357_make_common_x",
+        "x_4357_make_contract_validators_x",
+        "x_4357_make_github_clones_x",
+        "x_4357_make_github_visitor_x",
+        "x_4357_make_graphviz_x",
+        "x_4357_make_markdown_x",
+        "x_4357_make_mermaid_x",
+        "x_4357_make_persistent_env_var_x",
+        "x_4357_make_pip_updates_x",
+        "x_4357_make_progress_board_x",
+        "x_4357_make_py_mod_sideload_x",
+        "x_4357_make_pypi_x",
+        "x_4357_make_yahw_x"
+      ]
+    }
+  },
+  "status": "success",
+  "completed_at": "2025-11-24T05:35:07Z",
+  "duration_seconds": 120.217,
+  "tool": "x_make_pip_updates_x",
+  "generated_at": "2025-11-24T05:35:07Z"
+}
