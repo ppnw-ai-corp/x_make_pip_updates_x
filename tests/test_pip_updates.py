@@ -7,7 +7,6 @@ from __future__ import annotations
 import json
 import subprocess
 import typing
-from collections.abc import Mapping
 from importlib.metadata import PackageNotFoundError
 from typing import TYPE_CHECKING, ParamSpec, TypeVar, cast
 
@@ -21,7 +20,7 @@ _T = TypeVar("_T")
 
 
 if TYPE_CHECKING:
-    from collections.abc import Callable
+    from collections.abc import Callable, Mapping
 
     from _pytest.monkeypatch import MonkeyPatch
 
@@ -29,6 +28,7 @@ if TYPE_CHECKING:
 
 else:
     Callable = typing.Callable
+    Mapping = typing.Mapping
 
     def typed_fixture(func: Callable[_P, _T]) -> Callable[_P, _T]:
         decorated = pytest.fixture()(func)
