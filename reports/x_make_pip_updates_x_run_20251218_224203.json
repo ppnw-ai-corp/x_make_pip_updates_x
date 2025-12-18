@@ -1,0 +1,273 @@
+{
+  "run_id": "21ae9da2a44c42ed99acd247b06cf0e8",
+  "started_at": "2025-12-18T22:39:28Z",
+  "inputs": {
+    "requested_packages": [
+      "x_4357_make_cli_scaffolder_x",
+      "x_4357_make_common_x",
+      "x_4357_make_contract_validators_x",
+      "x_4357_make_copilot_cli_one_time_setup_x",
+      "x_4357_make_github_clones_x",
+      "x_4357_make_github_visitor_x",
+      "x_4357_make_gitignore_sync_x",
+      "x_4357_make_graphviz_x",
+      "x_4357_make_markdown_x",
+      "x_4357_make_mermaid_x",
+      "x_4357_make_persistent_env_var_x",
+      "x_4357_make_pip_updates_x",
+      "x_4357_make_progress_board_x",
+      "x_4357_make_py_mod_sideload_x",
+      "x_4357_make_py_venv_x",
+      "x_4357_make_pypi_x",
+      "x_4357_make_slack_dump_and_reset_x",
+      "x_4357_make_telemetry_vector_x",
+      "x_4357_make_who_is_John_Connor_x",
+      "x_4357_make_yahw_x"
+    ],
+    "normalized_packages": [
+      "x_4357_make_cli_scaffolder_x",
+      "x_4357_make_common_x",
+      "x_4357_make_contract_validators_x",
+      "x_4357_make_copilot_cli_one_time_setup_x",
+      "x_4357_make_github_clones_x",
+      "x_4357_make_github_visitor_x",
+      "x_4357_make_gitignore_sync_x",
+      "x_4357_make_graphviz_x",
+      "x_4357_make_markdown_x",
+      "x_4357_make_mermaid_x",
+      "x_4357_make_persistent_env_var_x",
+      "x_4357_make_pip_updates_x",
+      "x_4357_make_progress_board_x",
+      "x_4357_make_py_mod_sideload_x",
+      "x_4357_make_py_venv_x",
+      "x_4357_make_pypi_x",
+      "x_4357_make_slack_dump_and_reset_x",
+      "x_4357_make_telemetry_vector_x",
+      "x_4357_make_who_is_John_Connor_x",
+      "x_4357_make_yahw_x"
+    ],
+    "use_user_flag": false,
+    "repo_parent_root": "C:\\x_runner_x",
+    "published_versions": {
+      "x_4357_make_cli_scaffolder_x": "0.20.17",
+      "x_4357_make_common_x": "0.20.17",
+      "x_4357_make_contract_validators_x": "0.20.17",
+      "x_4357_make_copilot_cli_one_time_setup_x": "0.20.17",
+      "x_4357_make_github_clones_x": "0.20.17",
+      "x_4357_make_github_visitor_x": "0.20.17",
+      "x_4357_make_gitignore_sync_x": "0.20.17",
+      "x_4357_make_graphviz_x": "0.20.17",
+      "x_4357_make_markdown_x": "0.20.17",
+      "x_4357_make_mermaid_x": "0.20.17",
+      "x_4357_make_persistent_env_var_x": "0.20.17",
+      "x_4357_make_pip_updates_x": "0.20.17",
+      "x_4357_make_progress_board_x": "0.20.17",
+      "x_4357_make_py_mod_sideload_x": "0.20.17",
+      "x_4357_make_py_venv_x": "0.20.17",
+      "x_4357_make_pypi_x": "0.20.17",
+      "x_4357_make_slack_dump_and_reset_x": "0.20.17",
+      "x_4357_make_telemetry_vector_x": "0.20.17",
+      "x_4357_make_who_is_John_Connor_x": "0.20.17",
+      "x_4357_make_yahw_x": "0.20.17"
+    },
+    "published_artifacts": {
+      "x_4357_make_cli_scaffolder_x": {
+        "main": "x_cls_make_cli_scaffolder_x.py",
+        "anc": []
+      },
+      "x_4357_make_common_x": {
+        "main": "x_cls_make_common_x.py",
+        "anc": []
+      },
+      "x_4357_make_contract_validators_x": {
+        "main": "x_cls_make_contract_validators_x.py",
+        "anc": []
+      },
+      "x_4357_make_copilot_cli_one_time_setup_x": {
+        "main": "x_cls_make_copilot_cli_one_time_setup_x.py",
+        "anc": [
+          "first.txt"
+        ]
+      },
+      "x_4357_make_github_clones_x": {
+        "main": "x_cls_make_github_clones_x.py",
+        "anc": []
+      },
+      "x_4357_make_github_visitor_x": {
+        "main": "x_cls_make_github_visitor_x.py",
+        "anc": []
+      },
+      "x_4357_make_gitignore_sync_x": {
+        "main": "x_cls_make_gitignore_sync_x.py",
+        "anc": [
+          "README.pdf"
+        ]
+      },
+      "x_4357_make_graphviz_x": {
+        "main": "x_cls_make_graphviz_x.py",
+        "anc": []
+      },
+      "x_4357_make_markdown_x": {
+        "main": "x_cls_make_markdown_x.py",
+        "anc": [
+          "dummy/dummy.txt",
+          "dummy/mummy/mummy.txt",
+          "dummy2.txt",
+          "yummy/yummy.txt"
+        ]
+      },
+      "x_4357_make_mermaid_x": {
+        "main": "x_cls_make_mermaid_x.py",
+        "anc": []
+      },
+      "x_4357_make_persistent_env_var_x": {
+        "main": "x_cls_make_persistent_env_var_x.py",
+        "anc": []
+      },
+      "x_4357_make_pip_updates_x": {
+        "main": "x_cls_make_pip_updates_x.py",
+        "anc": []
+      },
+      "x_4357_make_progress_board_x": {
+        "main": "x_cls_make_progress_board_x.py",
+        "anc": []
+      },
+      "x_4357_make_py_mod_sideload_x": {
+        "main": "x_cls_make_py_mod_sideload_x.py",
+        "anc": []
+      },
+      "x_4357_make_py_venv_x": {
+        "main": "x_cls_make_py_venv_x.py",
+        "anc": [
+          "README.pdf"
+        ]
+      },
+      "x_4357_make_pypi_x": {
+        "main": "x_cls_make_pypi_x.py",
+        "anc": []
+      },
+      "x_4357_make_slack_dump_and_reset_x": {
+        "main": "x_cls_make_slack_dump_and_reset_x.py",
+        "anc": [
+          "README.pdf",
+          "SECURITY.pdf",
+          "requirements.txt"
+        ]
+      },
+      "x_4357_make_telemetry_vector_x": {
+        "main": "x_cls_make_telemetry_vector_x.py",
+        "anc": [
+          "LICENSE",
+          "README.pdf"
+        ]
+      },
+      "x_4357_make_who_is_John_Connor_x": {
+        "main": "x_cls_make_who_is_John_Connor_x.py",
+        "anc": [
+          "README.pdf",
+          "SETUP_COPILOT_CLI.pdf"
+        ]
+      },
+      "x_4357_make_yahw_x": {
+        "main": "x_cls_make_yahw_x.py",
+        "anc": []
+      }
+    }
+  },
+  "execution": {
+    "script_path": "C:\\x_runner_x\\x_make_pip_updates_x\\x_cls_make_pip_updates_x.py",
+    "script_available": true,
+    "script_attempt": {
+      "invoked": true,
+      "return_code": 0
+    },
+    "fallback": {
+      "invoked": false,
+      "pinned": [
+        "x_4357_make_cli_scaffolder_x==0.20.17",
+        "x_4357_make_common_x==0.20.17",
+        "x_4357_make_contract_validators_x==0.20.17",
+        "x_4357_make_copilot_cli_one_time_setup_x==0.20.17",
+        "x_4357_make_github_clones_x==0.20.17",
+        "x_4357_make_github_visitor_x==0.20.17",
+        "x_4357_make_gitignore_sync_x==0.20.17",
+        "x_4357_make_graphviz_x==0.20.17",
+        "x_4357_make_markdown_x==0.20.17",
+        "x_4357_make_mermaid_x==0.20.17",
+        "x_4357_make_persistent_env_var_x==0.20.17",
+        "x_4357_make_pip_updates_x==0.20.17",
+        "x_4357_make_progress_board_x==0.20.17",
+        "x_4357_make_py_mod_sideload_x==0.20.17",
+        "x_4357_make_py_venv_x==0.20.17",
+        "x_4357_make_pypi_x==0.20.17",
+        "x_4357_make_slack_dump_and_reset_x==0.20.17",
+        "x_4357_make_telemetry_vector_x==0.20.17",
+        "x_4357_make_who_is_John_Connor_x==0.20.17",
+        "x_4357_make_yahw_x==0.20.17"
+      ],
+      "loose": []
+    }
+  },
+  "result": {
+    "status": "completed",
+    "script_return_code": 0,
+    "used_script": true,
+    "fallback_used": false,
+    "retry_return_code": null,
+    "any_failures": false,
+    "initial_versions": {
+      "x_4357_make_cli_scaffolder_x": "0.20.17",
+      "x_4357_make_common_x": "0.20.17",
+      "x_4357_make_contract_validators_x": "0.20.17",
+      "x_4357_make_copilot_cli_one_time_setup_x": "0.20.17",
+      "x_4357_make_github_clones_x": "0.20.17",
+      "x_4357_make_github_visitor_x": "0.20.17",
+      "x_4357_make_gitignore_sync_x": "0.20.17",
+      "x_4357_make_graphviz_x": "0.20.17",
+      "x_4357_make_markdown_x": "0.20.17",
+      "x_4357_make_mermaid_x": "0.20.17",
+      "x_4357_make_persistent_env_var_x": "0.20.17",
+      "x_4357_make_pip_updates_x": "0.20.17",
+      "x_4357_make_progress_board_x": "0.20.17",
+      "x_4357_make_py_mod_sideload_x": "0.20.17",
+      "x_4357_make_py_venv_x": "0.20.17",
+      "x_4357_make_pypi_x": "0.20.17",
+      "x_4357_make_slack_dump_and_reset_x": "0.20.17",
+      "x_4357_make_telemetry_vector_x": "0.20.17",
+      "x_4357_make_who_is_John_Connor_x": "0.20.17",
+      "x_4357_make_yahw_x": "0.20.17"
+    },
+    "final_versions": {
+      "x_4357_make_cli_scaffolder_x": "0.20.17",
+      "x_4357_make_common_x": "0.20.17",
+      "x_4357_make_contract_validators_x": "0.20.17",
+      "x_4357_make_copilot_cli_one_time_setup_x": "0.20.17",
+      "x_4357_make_github_clones_x": "0.20.17",
+      "x_4357_make_github_visitor_x": "0.20.17",
+      "x_4357_make_gitignore_sync_x": "0.20.17",
+      "x_4357_make_graphviz_x": "0.20.17",
+      "x_4357_make_markdown_x": "0.20.17",
+      "x_4357_make_mermaid_x": "0.20.17",
+      "x_4357_make_persistent_env_var_x": "0.20.17",
+      "x_4357_make_pip_updates_x": "0.20.17",
+      "x_4357_make_progress_board_x": "0.20.17",
+      "x_4357_make_py_mod_sideload_x": "0.20.17",
+      "x_4357_make_py_venv_x": "0.20.17",
+      "x_4357_make_pypi_x": "0.20.17",
+      "x_4357_make_slack_dump_and_reset_x": "0.20.17",
+      "x_4357_make_telemetry_vector_x": "0.20.17",
+      "x_4357_make_who_is_John_Connor_x": "0.20.17",
+      "x_4357_make_yahw_x": "0.20.17"
+    },
+    "mismatches": [],
+    "verification": {
+      "status": "performed",
+      "detail": "metadata validated; deep verification not implemented"
+    }
+  },
+  "status": "success",
+  "completed_at": "2025-12-18T22:42:03Z",
+  "duration_seconds": 155.853,
+  "tool": "x_make_pip_updates_x",
+  "generated_at": "2025-12-18T22:42:03Z"
+}
